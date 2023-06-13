@@ -385,3 +385,45 @@ body > img {
   line-height: 49px;
   color: #FFFFFF;
 }
+
+.testimonial {
+  padding: 10rem 0 10rem 0;
+  background-image: url(../../img/tastimonial.png);
+  background-repeat: no-repeat;
+}
+.testimonial .testy_info {
+  text-align: center;
+  width: 48.5%;
+}
+.testimonial .account {
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 0 0 5rem 0;
+  margin-left: 18rem;
+}
+.testimonial h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+  margin: 6px 0 12rem 0;
+  text-align: center;
+}
+.testimonial h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16214;
+  text-align: center;
+}
+.testimonial p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #888888;
+}
+.testimonial .arrow {
+  margin: 3.5rem 0 0 0;
+}

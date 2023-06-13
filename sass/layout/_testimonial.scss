@@ -1,0 +1,29 @@
+.testimonial{
+    @include padding(10rem,0,10rem,0);
+    background-image: url(../../img/tastimonial.png);
+    background-repeat: no-repeat;
+    .testy_info{
+        text-align: center;
+        width: 48.5%;
+    }
+    .account{
+        @include flex(1.5rem,start);
+        @include margin(0,5rem);
+        margin-left: 18rem;
+    }
+    h2{
+        @include public_h2($black);
+        @include margin(6px,12rem);
+        text-align: center;
+    }
+    h4{
+        @include public_h4($btn-color);
+        text-align: center;
+    }
+    p{
+        @include public_p;
+    }
+    .arrow{
+        @include margin(3.5rem,0)
+    }
+}
