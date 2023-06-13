@@ -1,0 +1,72 @@
+header{
+    @include padding(3rem,0,0,0);
+    .cards{
+        box-shadow: 0px 22px 52px rgba(0, 0, 0, 0.07);
+        border-radius: 60px 0px;
+        @include flex(0,space-between);
+        @include padding(6rem,0,6rem,0)
+    }
+    .card{
+        width: 33.3%;
+        @include column(1.4rem);
+        h4{
+            @include public_h4($black);
+        }
+        p{
+            @include public_p;
+        }
+    }
+    .cards>.card:nth-child(2){
+        border-left: 1.5px solid #ddd;
+        border-right: 1.5px solid #ddd;
+    }
+}
+nav{
+    @include flex(16.2rem,start);
+    ul{
+        @include flex(3rem,start);
+    }
+    a{
+        @include public_h4($black);
+        @include transition;
+    }
+    a:hover{
+        color: $btn-color;
+    }
+    li:last-child>a{
+        @include public_btn(400,1.3rem,1.6rem,120px);
+        @include padding(7px,17px,7px,17px);
+        color:$white;
+    }
+    li:last-child>a:hover{
+        @include btn_hover;
+    }
+}
+.hero{
+    width: 47%;
+    @include margin(14rem,11rem);
+    h1{
+        @include public_h3(7.5rem,9.1rem)
+    }
+    p{
+        @include public_p;
+        @include margin(1.5rem,4rem)
+    }
+    button{
+        @include public_btn(700,1.6rem,2.4rem,5.4rem);
+        @include flex(2rem,start);
+        @include padding(5px,5px,5px,2rem);
+        @include margin(0,4rem)
+    }
+    button:hover,button:focus{
+        @include btn_hover;
+    }
+    ul{
+        @include flex(2.2rem,start);
+    }
+}
+body>img{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}

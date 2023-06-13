@@ -28,6 +28,12 @@
     border-radius: $br;
     color: $white;
     background-color: $btn-color;
+    border: 1px solid $btn-color;
+}
+@mixin btn_hover {
+    color: $btn-color;
+    background-color: $white;
+    border: 1px solid $btn-color;
 }
 @mixin padding ($pt,$pr,$pb,$pl) {
     padding: $pt $pr $pb $pl;
@@ -41,10 +47,13 @@
     align-items: center;
     justify-content: $jc;
 }
-@mixin flexwrap ($gap) {
+@mixin column ($gap) {
     gap: $gap;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+@mixin transition{
+    transition: all .3s linear;
 }
