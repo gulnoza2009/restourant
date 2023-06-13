@@ -151,3 +151,55 @@ body > img {
   right: 0;
   z-index: -1;
 }
+
+.work_bg {
+  left: 0;
+}
+
+.work {
+  padding: 16rem 0 16rem 0;
+}
+
+.work_main {
+  margin-left: 60rem;
+  width: 49%;
+}
+.work_main h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16214;
+}
+.work_main h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+  margin: 6rem 0 4.5rem 0;
+}
+.work_main p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #888888;
+}
+.work_main button {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  border-radius: 5.4rem;
+  color: #FFFFFF;
+  background-color: #F16214;
+  border: 1px solid #F16214;
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 5px 5px 5px 2rem;
+  margin: 3rem 0 0 0;
+}
+.work_main button:hover, .work_main button:focus {
+  color: #F16214;
+  background-color: #FFFFFF;
+  border: 1px solid #F16214;
+}

@@ -1,0 +1,29 @@
+.work_bg{
+    left: 0;
+}
+.work{
+    @include padding(16rem,0,16rem,0);
+}
+.work_main{
+    margin-left: 60rem;
+    width: 49%;
+    h4{
+        @include public_h4($btn-color);
+    }
+    h2{
+        @include public_h2($black);
+        @include margin(6rem,4.5rem)
+    }
+    p{
+        @include public_p;
+    }
+    button{
+        @include public_btn(700,1.6rem,2.4rem,5.4rem);
+        @include flex(2rem,start);
+        @include padding(5px,5px,5px,2rem);
+        @include margin(3rem,0);
+    }
+    button:hover,button:focus{
+        @include btn_hover;
+    }
+}
