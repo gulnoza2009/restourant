@@ -1,0 +1,50 @@
+@mixin public_p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $p-color;
+}
+@mixin public_h4 ($color:$btn-color) {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: $color;
+}
+@mixin public_h2 ($color:$black) {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: $color;
+}
+@mixin public_h3 ($fs,$lh) {
+    font-weight: 700;
+    font-size: $fs;
+    line-height: $lh;
+}
+@mixin public_btn ($fw,$fs,$lh,$br) {
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    border-radius: $br;
+    color: $white;
+    background-color: $btn-color;
+}
+@mixin padding ($pt,$pr,$pb,$pl) {
+    padding: $pt $pr $pb $pl;
+}
+@mixin margin ($mt,$mb){
+    margin: $mt 0 $mb 0;
+}
+@mixin flex ($gap,$jc) {
+    gap: $gap;
+    display: flex;
+    align-items: center;
+    justify-content: $jc;
+}
+@mixin flexwrap ($gap) {
+    gap: $gap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
