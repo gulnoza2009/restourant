@@ -1,0 +1,33 @@
+.service{
+    @include padding(10rem,0,10rem,0);
+    h4{
+        @include public_h4($btn-color);
+        text-align: center
+    }
+    h2{
+        @include public_h2($black);
+        @include margin(0.6rem,6rem);
+        text-align: center;
+    }
+    p{
+        @include public_p;
+        text-align: center
+    }
+    .cards{
+        @include flex(3rem,space-between);
+        h3{
+            @include public_h3(2.6rem,3.2rem);
+        }
+    }
+    .card{
+        @include column(3.3rem);
+        @include padding(7rem,2rem,7rem,2rem);
+        border: 2px solid #EEEEEE;
+        border-radius: 60px 0px;
+        background-color: #fff;
+    }
+    .card:hover{
+        box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.1);
+        border-radius: 60px 0px;
+    }
+}
