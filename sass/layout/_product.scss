@@ -1,0 +1,55 @@
+.product{
+    @include padding(10rem,0,10rem,0);
+    text-align: center;
+    .container>button{
+        @include public_btn(700,1.6rem,2.4rem,5.4rem);
+        @include flex(1rem,start);
+        display: inline-block;
+        @include padding(5px,5px,5px,2rem);
+        @include margin(6rem,0rem);
+    }
+    button:hover,button:focus{
+        @include btn_hover;
+    }
+    h4{
+        @include public_h4($btn-color);
+    }
+    h2{
+        @include public_h2($black);
+        @include margin(6px,5.5rem);
+    }
+    .cards{
+        @include flex(3rem,start);
+        flex-wrap:wrap;
+    }
+    .card{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+        border-radius: 50px 0px;
+        width: 31.6%;
+        button{
+            @include public_btn(700,1.1rem,1.3rem,5rem);
+            @include padding(1.5rem,2rem,1.5rem,2rem);
+        }
+        .btn{
+            @include padding(0,2rem,5rem,2rem);
+            @include flex(0,space-between);
+            span{
+                @include public_h3(2rem,2.5rem)
+            }
+        }
+        button:hover,button:focus{
+            @include btn_hover;
+        }
+    }
+    h3{
+        @include public_h3(2rem,2.5rem)
+    }
+    .star_line{
+        @include flex(0,space-between);
+        @include padding(1.4rem,2rem,2rem,2rem);
+        span{
+            @include public_h3(1.1rem,1.4rem);
+        }
+    }
+}

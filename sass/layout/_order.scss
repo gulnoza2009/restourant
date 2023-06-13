@@ -1,0 +1,20 @@
+.order{
+    @include padding(20rem,0,10rem,0);
+    position: relative;
+    .container>img{
+        position: absolute;
+        top: 3rem;
+        left: 85rem;
+    }
+    .store{
+        @include flex(2rem,start);
+        @include margin(5rem,0);
+    }
+    .order_info{
+        @include padding(8.5rem,0,8.5rem,3rem);
+        background-image: url(/img/order_bg.png);
+    }
+    h2{
+        @include public_h2($white);
+    }
+}
