@@ -1,0 +1,29 @@
+.subcribe{
+    @include padding(10rem, 0,10rem,0);
+    .subcribe_main{
+        @include flex(0,space-between);
+        background-image: url(../../img/subcribe_bg.png);
+        height: 30rem;
+        @include padding(0,6.6rem,0,3.3rem)
+    }
+    h2{
+        @include public_h2($white)
+    }
+    p{
+        @include public_p;
+        @include margin(1.5rem,3rem);
+    }
+    input{
+        border: none;
+    }
+    button{
+        @include public_btn(700,1.6rem,2.4rem,1.3rem);
+        @include padding(1.3rem,2.2rem,1.3rem,2.2rem);
+    }
+    form{
+        background: #FFFFFF;
+        border-radius: 13px;
+        @include flex(0,space-between);
+        @include padding(5px,5px ,5px,2rem);
+    }
+}

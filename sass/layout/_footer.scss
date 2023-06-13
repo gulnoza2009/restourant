@@ -1,0 +1,43 @@
+footer{
+    padding-top: 10rem;
+    background-color: #f5f5f5;
+    .container{
+        @include flex(0,space-between);
+        align-items: start;
+    }
+    .food>img{
+        margin-bottom:3rem;
+        ul{
+            @include flex(2rem,start);
+            margin-top:3rem;
+        }
+    }
+    .card{
+        width: 23%;
+    }
+    p{
+        @include public_p;
+    }
+    h3{
+        @include public_h3(2.2rem,3.3rem);
+        margin-bottom: 3.5rem;
+    }
+    input{
+        border: none;
+    }
+    button{
+        @include public_btn(700,1.6rem,2.4rem,1.3rem);
+        @include padding(1.3rem,2.2rem,1.3rem,2.2rem);
+    }
+    form{
+        height: 5rem;
+        background: #FFFFFF;
+        border-radius: 13px;
+        @include flex(0,space-between);
+        @include padding(5px,5px ,5px,2rem);
+        img{
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+}

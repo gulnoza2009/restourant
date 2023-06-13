@@ -31,6 +31,7 @@ ul {
 
 button {
   border: none;
+  cursor: pointer;
 }
 
 header {
@@ -426,4 +427,116 @@ body > img {
 }
 .testimonial .arrow {
   margin: 3.5rem 0 0 0;
+}
+
+.subcribe {
+  padding: 10rem 0 10rem 0;
+}
+.subcribe .subcribe_main {
+  gap: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../../img/subcribe_bg.png);
+  height: 30rem;
+  padding: 0 6.6rem 0 3.3rem;
+}
+.subcribe h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+.subcribe p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #888888;
+  margin: 1.5rem 0 3rem 0;
+}
+.subcribe input {
+  border: none;
+}
+.subcribe button {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  border-radius: 1.3rem;
+  color: #FFFFFF;
+  background-color: #F16214;
+  border: 1px solid #F16214;
+  padding: 1.3rem 2.2rem 1.3rem 2.2rem;
+}
+.subcribe form {
+  background: #FFFFFF;
+  border-radius: 13px;
+  gap: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 5px 5px 2rem;
+}
+
+footer {
+  padding-top: 10rem;
+  background-color: #f5f5f5;
+}
+footer .container {
+  gap: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: start;
+}
+footer .food > img {
+  margin-bottom: 3rem;
+}
+footer .food > img ul {
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 3rem;
+}
+footer .card {
+  width: 23%;
+}
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #888888;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  margin-bottom: 3.5rem;
+}
+footer input {
+  border: none;
+}
+footer button {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  border-radius: 1.3rem;
+  color: #FFFFFF;
+  background-color: #F16214;
+  border: 1px solid #F16214;
+  padding: 1.3rem 2.2rem 1.3rem 2.2rem;
+}
+footer form {
+  height: 5rem;
+  background: #FFFFFF;
+  border-radius: 13px;
+  gap: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 5px 5px 2rem;
+}
+footer form img {
+  width: 4rem;
+  height: 4rem;
 }
